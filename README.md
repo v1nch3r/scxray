@@ -115,7 +115,7 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && reboot
 ```
               
 ```
-wget -q -O xray https://raw.githubusercontent.com/arismaramar/vdns/main/xray.sh && chmod +x lite && ./xray
+wget -q -O xray https://raw.githubusercontent.com/arismaramar/scxray/main/xray.sh && chmod +x lite && ./xray
 ```
 </tr>
 </tbody>
