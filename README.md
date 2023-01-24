@@ -117,9 +117,3 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && reboot
 ```
 wget -q -O xray https://raw.githubusercontent.com/arismaramar/scxray/main/xray.sh && chmod +x xray && ./xray
 ```
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-premium lengakap sshws slowdns backup restore hub https://t.me/amantubilah
