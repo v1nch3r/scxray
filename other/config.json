@@ -30,7 +30,7 @@
       "streamSettings":{
         "network": "ws",
         "wsSettings": {
-          "path": "/",
+          "path": "/vmess",
           "alpn": [
             "h2",
             "http/1.1"
@@ -148,7 +148,6 @@
               "user": "private",
               "pass": "server"
 #socks
-
             }
           ],
         "udp": true,
