@@ -1,8 +1,6 @@
 #!/bin/bash
 #####
-clear
 function addssh(){
-clear
 domen=`cat /usr/local/etc/xray/domain
 sldomain=$(cat /root/nsdomain)
 slkey=$(cat /etc/slowdns/server.pub)
@@ -541,3 +539,4 @@ case $opt in
 00 | 0) clear ; menu ;;
 *) clear ; menu-ssh ;;
 esac
+
