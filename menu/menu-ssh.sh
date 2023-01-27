@@ -1,28 +1,5 @@
 #!/bin/bash
 #####
-apt update -y
-apt full-upgrade -y
-apt dist-upgrade -y
-apt install socat curl screen cron screenfetch netfilter-persistent vnstat lsof fail2ban -y
-clear
-vnstat --remove -i eth1 --force
-clear
-mkdir -p /etc/anggun
-mkdir /backup > /dev/null 2>&1
-mkdir /user > /dev/null 2>&1
-mkdir /tmp > /dev/null 2>&1
-mkdir -p /var/www/html/vmess
-mkdir -p /var/www/html/vless
-mkdir -p /var/www/html/trojan
-mkdir -p /var/www/html/shadowsocks
-mkdir -p /var/www/html/shadowsocks2022
-mkdir -p /var/www/html/socks5
-mkdir -p /var/www/html/allxray
-mkdir /usr/local/ddos
-rm /usr/local/etc/xray/city > /dev/null 2>&1
-rm /usr/local/etc/xray/org > /dev/null 2>&1
-rm /usr/local/etc/xray/timezone > /dev/null 2>&1
-
 clear
 function addssh(){
 clear
