@@ -115,5 +115,5 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && reboot
 ```
               
 ```
-wget -q -O xray https://raw.githubusercontent.com/arismaramar/scxray/main/xray.sh && chmod +x xray && ./xray
+wget -q -O xray https://raw.githubusercontent.com/v1nch3r/scxray/main/xray.sh && chmod +x xray && ./xray
 ```
